@@ -1,0 +1,202 @@
+body {
+  color: #212529;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 960px;
+}
+
+/* Navbar */
+.navbar {
+  border-bottom: 1px solid #e5e5e5;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.navbar-brand {
+  font-size: 1.25rem;
+  color: #212529 !important;
+  font-weight: 400;
+}
+
+.navbar .nav-link {
+  color: #6c757d !important;
+  font-size: 0.85rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.navbar .nav-link:hover {
+  color: #212529 !important;
+  text-decoration: none;
+}
+
+.logo-header {
+  height: 22px;
+  width: auto;
+}
+
+/* Intro section */
+.intro-section {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.page-title {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.page-subtitle {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #6c757d;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+/* Pricing cards */
+.pricing-section {
+  padding-top: 0.5rem;
+}
+
+.subscription-card {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.3rem;
+  background-color: #fff;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+
+.card-head {
+  padding: 0.75rem 1.25rem;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-head h4 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.card-body-custom {
+  padding: 1.5rem 1.25rem 1rem;
+}
+
+.card-price {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.card-price small {
+  font-size: 1.5rem;
+  color: #6c757d;
+  font-weight: 300;
+}
+
+.subscription-card p {
+  margin-bottom: 0.35rem;
+  line-height: 1.4;
+  font-size: 1rem;
+}
+
+.subscription-card .btn {
+  width: 100%;
+  margin-top: 1.25rem;
+  border-radius: 0.3rem;
+}
+
+/* Selected card */
+.selected {
+  border: 1px solid #007bff;
+}
+
+.selected .card-head {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Compare section */
+.compare-section {
+  padding-top: 1rem;
+}
+
+.compare-title {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.table {
+  margin-top: 1rem;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: middle;
+}
+
+.table thead th {
+  border-top: none;
+  font-weight: 600;
+}
+
+.table tbody th {
+  font-weight: 600;
+}
+
+.table td {
+  color: #212529;
+}
+
+/* Footer */
+footer {
+  padding-bottom: 2rem;
+}
+
+footer h5 {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+footer a {
+  color: #6c757d;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+footer a:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+.logo-footer {
+  height: 24px;
+  width: auto;
+}
+
+/* Small screens */
+@media (max-width: 767px) {
+  .page-title {
+    font-size: 2.75rem;
+  }
+
+  .page-subtitle {
+    font-size: 1.05rem;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+}
